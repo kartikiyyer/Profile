@@ -22,7 +22,6 @@ Please do leave a feedback/comment.
 ### Installation instructions
 Following python packages are needed to build this project:
 Package            Version
------------------- -------
 python             3.10
 click              8.1.3
 Flask              2.2.2
@@ -42,7 +41,9 @@ Please refer requirements.txt for latest package versions.
 3. Go to project folder
 4. python3 -m venv venv
 5. source venv/bin/activate
-pip install flask==1.0.2 (Will install its dependencies.)
+pip install flask==2.2.2 (Will install its dependencies.)
+or
+pip install -r requirements.txt
 
 ### Build/Run command
 python3 src/routes/route_profile.py
